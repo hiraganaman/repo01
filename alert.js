@@ -14,6 +14,6 @@
 じゃあ、注文を聞こうか。`
   var msgs = [new Date().toLocaleString()];
   msgs.push(txt);
-  msgs.push('なんてね！嘘だっぴょーん');
+  msgs.push('なんてね！嘘だっぴょーん あれ？反映されない？');
   alert(msgs.join('\n'));
 })();
