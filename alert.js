@@ -12,7 +12,7 @@
 そう思って、この項目を作ったんだ。
 
 じゃあ、注文を聞こうか。`
-  var msgs = [new Date().toLocalString()];
+  var msgs = [new Date().toLocaleString()];
   msgs.push(txt);
   msgs.push('なんてね！嘘だっぴょーん');
   alert(msgs.join('\n'));
